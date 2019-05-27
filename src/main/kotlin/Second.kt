@@ -66,6 +66,7 @@ fun main (){
 }
 //Я сильно извиняюсь, но в одну функцию, написать парсер, мне не позволили знания Kotlin
 //Их будет две.
+//для примера с Any, я написал в pastbein https://pastebin.com/kTP81aQZ
 private fun extractText(mimeMessage: Any): String {
     when (mimeMessage) {
         is MimeMessage -> {
